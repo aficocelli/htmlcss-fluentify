@@ -12,11 +12,15 @@ body{
   text-transform: uppercase;
   font-size: 12px;
 }
+.titolo-bottone h1{
+  color:#fff;
+  font-size: 48px;
+}
 /* /formattazione testi */
 
 /* grandezze temporanee */
 header{
-  height:80vh;
+
   background-color: #0C325A;
   position:relative;
 }
@@ -92,16 +96,28 @@ header{
   position: absolute;
   top:50%;
   transform: translateY(-50%);
+  width:550px;
+}
+.titolo-bottone h1{
+  margin-bottom: 40px;
+}
+.titolo-bottone a{
+  text-decoration: none;
+  color:#fff;
+  text-transform: uppercase;
+  padding: 20px;
 }
 .immagine-principale{
   position:absolute;
   right:0;
   bottom:0;
+  height:400px;
 }
 .immagine-principale img{
   height:400px;
   width:800px;
   object-fit: cover;
 }
+
 
 /* struttura del bottom header */
