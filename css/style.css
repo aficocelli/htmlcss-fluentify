@@ -16,9 +16,15 @@ body{
   color:#fff;
   font-size: 48px;
 }
+.testo-confronto h3{
+  font-size: 24px;
+}
+.testo-confronto p{
+  color:#808080;
+  font-size: 16px;
+}
 /* /formattazione testi */
 
-/* grandezze temporanee */
 header{
 
   background-color: #0C325A;
@@ -28,15 +34,12 @@ header{
 .top-header{
   width:80%;
   margin: 0 auto;
-
 }
 .bottom-header{
   height:450px;
   width:80%;
   margin: 0 auto;
   position: relative;
-
-
 }
 /* /creati due contenitori da centrare */
 
@@ -49,7 +52,7 @@ header{
 
 .menu-principale{
   float: left;
-  margin-right: 85px;
+  margin-right: 70px;
 }
 .menu-principale li, .login li{
   display: inline-block;
@@ -118,6 +121,19 @@ header{
   width:800px;
   object-fit: cover;
 }
-
-
 /* struttura del bottom header */
+
+/* struttura sezione */
+.confronto-strutture{
+  height:100px;
+  background-color: #D3D3D3;
+  text-align: center;
+  position: relative;
+  line-height: 30px;
+}
+.testo-confronto{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50% ,-50%);
+}
