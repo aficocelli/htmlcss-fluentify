@@ -8,7 +8,7 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
-.menu-principale li {
+.menu-principale li, .login li {
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -29,7 +29,7 @@ header{
 }
 .bottom-header{
   height:450px;
-  width:80%;
+  width:90%;
   margin: 0 auto;
   position: relative;
 }
@@ -38,33 +38,48 @@ header{
 /* struttura del top header */
 .logo{
   float: left;
-  margin-right: 5%;
+  margin-right: 50px;
   padding:10px 0;
 }
 
 .menu-principale{
   float: left;
-  margin-right: 10%;
+  margin-right: 80px;
 }
-.menu-principale li{
+.menu-principale li, .login li{
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 15px;
   list-style: none;
   line-height: 50px;
-  padding:10px 0;
+  padding: 10px 0;
 }
-.menu-principale a {
+.menu-principale a, .login a {
   text-decoration: none;
   color:#fff;
 }
 
 .login{
-  width: 20%;
-  height: 50px;
-  background-color: green;
   float: left;
-  border: 1px solid black;
 }
+.login ul:first-child{
+  color:#fff;
+}
+/* struttura button */
+.bottone-vuoto{
+  border: 1px solid #fff;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+.bottone-pieno{
+  background-color: #7CBB02;
+  padding: 8px 5px;
+  border-radius: 5px;
+}
+
+/* /struttura button */
+
+
+
 
 /* /struttura del top header */
 
