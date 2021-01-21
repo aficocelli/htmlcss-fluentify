@@ -17,21 +17,22 @@ body{
 /* grandezze temporanee */
 header{
   height:80vh;
-  background-color: blue;
-  background-image: url('../img/wip.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #0C325A;
+  position:relative;
 }
 /* creati due contenitori da centrare */
 .top-header{
   width:80%;
   margin: 0 auto;
+
 }
 .bottom-header{
   height:450px;
-  width:90%;
+  width:80%;
   margin: 0 auto;
   position: relative;
+
+
 }
 /* /creati due contenitori da centrare */
 
@@ -44,7 +45,7 @@ header{
 
 .menu-principale{
   float: left;
-  margin-right: 80px;
+  margin-right: 85px;
 }
 .menu-principale li, .login li{
   display: inline-block;
@@ -75,11 +76,7 @@ header{
   padding: 8px 5px;
   border-radius: 5px;
 }
-
 /* /struttura button */
-
-
-
 
 /* /struttura del top header */
 
@@ -96,4 +93,15 @@ header{
   top:50%;
   transform: translateY(-50%);
 }
+.immagine-principale{
+  position:absolute;
+  right:0;
+  bottom:0;
+}
+.immagine-principale img{
+  height:400px;
+  width:800px;
+  object-fit: cover;
+}
+
 /* struttura del bottom header */
