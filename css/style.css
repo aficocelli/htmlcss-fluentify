@@ -3,3 +3,67 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* grandezze temporanee */
+header{
+  height:80vh;
+  background-color: blue;
+  background-image: url('../img/wip.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* creati due contenitori da centrare */
+.top-header{
+  width:80%;
+  margin: 0 auto;
+}
+.bottom-header{
+  height:450px;
+  width:80%;
+  margin: 0 auto;
+  position: relative;
+}
+/* /creati due contenitori da centrare */
+
+/* struttura del top header */
+.logo{
+  height: 50px;
+  width: 25%;
+  background-color: green;
+  float: left;
+  border: 1px solid black;
+  margin-right: 5%;
+}
+
+.menu-principale{
+  width: 40%;
+  height: 50px;
+  background-color: green;
+  float: left;
+  border: 1px solid black;
+  margin-right: 10%;
+}
+
+.login{
+  width: 20%;
+  height: 50px;
+  background-color: green;
+  float: left;
+  border: 1px solid black;
+}
+
+/* /struttura del top header */
+
+/* applico il clearfix al top header */
+.top-header::after{
+  display: block;
+  clear: both;
+  content:"";
+}
+
+/* struttura del bottom header */
+.titolo-bottone{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+/* struttura del bottom header */
