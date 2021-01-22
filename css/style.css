@@ -298,4 +298,14 @@ header{
   font-size: 18px;
   font-weight: 500;
 }
+.help{
+  background-color: #7CBB02;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  position:fixed;
+  bottom:0;
+  right:16%;
+}
 /* struttura sezione finale */
