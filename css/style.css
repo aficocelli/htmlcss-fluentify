@@ -29,9 +29,18 @@ body{
   color: #7CBB02;
   font-weight: 500;
 }
-.testo-apprendimento p{
+.testo-apprendimento p, .testi-livello p{
   font-size: 16px;
   color: #808080;
+  font-weight: 500;
+}
+
+.testi-livello h3{
+  font-size: 28px;
+}
+.testi-livello a{
+  font-size: 12px;
+  color: #6390C2;
   font-weight: 500;
 }
 /* /formattazione testi */
@@ -40,17 +49,21 @@ header{
   background-color: #0C325A;
   position:relative;
 }
-/* creati due contenitori da centrare */
+/* contenitori da centrare */
 .top-header, .bottom-header,
-.metodo-apprendimento, .livello-lingua{
+.metodo-apprendimento {
   width:80%;
+  margin: 0 auto;
+}
+.livello-lingua{
+  width:70%;
   margin: 0 auto;
 }
 .bottom-header{
   height:450px;
   position: relative;
 }
-/* /creati due contenitori da centrare */
+/* /contenitori da centrare */
 
 /* struttura del top header */
 .logo{
@@ -106,7 +119,8 @@ header{
 
 /* applico il clearfix al top header */
 .top-header::after,
-.metodo-apprendimento::after{
+.metodo-apprendimento::after,
+.livello-lingua::after {
   display: block;
   clear: both;
   content:"";
@@ -201,10 +215,24 @@ header{
 
 .immagine-livello, .testi-livello{
   width:50%;
-  height:200px;
-  background-color: red;
+  height:70vh;
   border: 1px solid black;
   float: left;
+}
+
+.immagine-livello img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+}
+.testi-livello{
+  padding: 20px 40px;
+}
+.testi-livello h3{
+  margin-bottom: 10px;
+}
+.testi-livello p {
+  margin-bottom: 20px;
 }
 
 /* /struttura sezione livello lingua */
