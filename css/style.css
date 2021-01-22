@@ -25,12 +25,14 @@ body{
 }
 
 .testo-apprendimento h3{
-  font-size: 26px;
+  font-size: 24px;
   color: #7CBB02;
+  font-weight: 500;
 }
 .testo-apprendimento p{
   font-size: 16px;
   color: #808080;
+  font-weight: 500;
 }
 /* /formattazione testi */
 
@@ -160,9 +162,13 @@ header{
 
 .box{
   height:70vh;
-  width:calc(100%/3);
-  border:1px solid black;
+  width:calc(100% / 3);
   float:left;
+  margin-top: 5%;
+  padding: 0 20px;
+}
+.box-cx {
+  margin-top: 5%;
 }
 
 /* struttura immagini sezione apprendimento */
