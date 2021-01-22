@@ -31,14 +31,13 @@ header{
   position:relative;
 }
 /* creati due contenitori da centrare */
-.top-header{
+.top-header, .bottom-header,
+.metodo-apprendimento{
   width:80%;
   margin: 0 auto;
 }
 .bottom-header{
   height:450px;
-  width:80%;
-  margin: 0 auto;
   position: relative;
 }
 /* /creati due contenitori da centrare */
@@ -96,7 +95,8 @@ header{
 /* /struttura del top header */
 
 /* applico il clearfix al top header */
-.top-header::after{
+.top-header::after,
+.metodo-apprendimento::after{
   display: block;
   clear: both;
   content:"";
@@ -131,7 +131,7 @@ header{
 }
 /* struttura del bottom header */
 
-/* struttura sezione */
+/* struttura sezione confronto */
 .confronto-strutture{
   height:100px;
   background-color: #D3D3D3;
@@ -144,4 +144,15 @@ header{
   top:50%;
   left:50%;
   transform: translate(-50% ,-50%);
+}
+/* /struttura sezione confronto */
+
+/* struttura sezione apprendimento */
+
+.box{
+  height:70vh;
+  width:calc(100%/3);
+  background-color: red;
+  border:1px solid black;
+  float:left;
 }
