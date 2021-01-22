@@ -152,7 +152,18 @@ header{
 .box{
   height:70vh;
   width:calc(100%/3);
-  background-color: red;
   border:1px solid black;
   float:left;
+}
+
+/* struttura immagini sezione apprendimento */
+
+.immagine-apprendimento{
+  width:100%;
+  height:150px;
+}
+.immagine-apprendimento img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
 }
