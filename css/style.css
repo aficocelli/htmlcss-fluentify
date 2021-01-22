@@ -40,13 +40,19 @@ body{
   font-weight: 400;
 }
 
-.testi-livello h3{
+.testi-livello h3, .titolo-iscrizione h3{
   font-size: 32px;
   font-weight: 500;
 }
 .testi-livello a{
   font-size: 14px;
   color: #6390C2;
+  font-weight: 500;
+}
+
+.form-iscrizione span{
+  font-size: 18px;
+  color:#808080;
   font-weight: 500;
 }
 /* /formattazione testi */
@@ -57,7 +63,7 @@ header{
 }
 /* contenitori da centrare */
 .top-header, .bottom-header,
-.metodo-apprendimento, .contenitore-finale {
+.metodo-apprendimento {
   width:80%;
   margin: 0 auto;
 }
@@ -95,7 +101,7 @@ header{
 {
   margin-right: 15px;
 }
-.menu-principale a, .login a {
+.menu-principale a, .login a, .button-finali a {
   text-decoration: none;
   color:#fff;
 }
@@ -126,7 +132,8 @@ header{
 /* applico il clearfix */
 .top-header::after,
 .metodo-apprendimento::after,
-.livello-lingua::after, .contenitore-finale {
+.livello-lingua::after,
+.contenitore-finale {
   display: block;
   clear: both;
   content:"";
@@ -251,11 +258,44 @@ header{
 /* /struttura sezione livello lingua */
 
 /* struttura sezione finale */
-.titolo-iscrizione, .form-iscrizione {
+.sezione-finale{
+  background-color: #D3D3D3;
   height:30vh;
-  width:50%;
-  background-color: red;
-  border: 1px solid black;
-  float: left;
+  position: relative;
+}
+.contenitore-finale{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  width:100%;
+}
+.titolo-iscrizione {
+  display: inline-block;
+  background-color: #D3D3D3;
+  margin-left: 10%;
+}
+.form-iscrizione {
+  display: inline-block;
+  background-color: #D3D3D3;
+  margin-left: 30%;
+}
+.button-finali{
+  display: inline-block;
+  margin-left: 40px;
+  width:200px;
+}
+.piano-studi{
+  background-color: #7CBB02;
+  padding: 20px 5px;
+  border-radius: 5px;
+}
+.form-iscrizione select{
+  margin-left: 20px;
+  background-color: transparent;
+  border:none;
+  border-bottom: 1px solid #A6A6A6;
+  color:#808080;
+  font-size: 18px;
+  font-weight: 500;
 }
 /* struttura sezione finale */
