@@ -57,7 +57,7 @@ header{
 }
 /* contenitori da centrare */
 .top-header, .bottom-header,
-.metodo-apprendimento {
+.metodo-apprendimento, .contenitore-finale {
   width:80%;
   margin: 0 auto;
 }
@@ -123,10 +123,10 @@ header{
 
 /* /struttura del top header */
 
-/* applico il clearfix al top header */
+/* applico il clearfix */
 .top-header::after,
 .metodo-apprendimento::after,
-.livello-lingua::after {
+.livello-lingua::after, .contenitore-finale {
   display: block;
   clear: both;
   content:"";
@@ -249,3 +249,13 @@ header{
 }
 
 /* /struttura sezione livello lingua */
+
+/* struttura sezione finale */
+.titolo-iscrizione, .form-iscrizione {
+  height:30vh;
+  width:50%;
+  background-color: red;
+  border: 1px solid black;
+  float: left;
+}
+/* struttura sezione finale */
