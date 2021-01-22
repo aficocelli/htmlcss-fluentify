@@ -37,13 +37,12 @@ body{
 /* /formattazione testi */
 
 header{
-
   background-color: #0C325A;
   position:relative;
 }
 /* creati due contenitori da centrare */
 .top-header, .bottom-header,
-.metodo-apprendimento{
+.metodo-apprendimento, .livello-lingua{
   width:80%;
   margin: 0 auto;
 }
@@ -194,5 +193,18 @@ header{
 .testo-apprendimento hr{
   margin: 20px auto;
   width:80px;
-
 }
+
+/* /struttura testo sezione apprendimento */
+
+/* struttura sezione livello lingua */
+
+.immagine-livello, .testi-livello{
+  width:50%;
+  height:200px;
+  background-color: red;
+  border: 1px solid black;
+  float: left;
+}
+
+/* /struttura sezione livello lingua */
