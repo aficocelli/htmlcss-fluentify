@@ -29,17 +29,23 @@ body{
   color: #7CBB02;
   font-weight: 500;
 }
-.testo-apprendimento p, .testi-livello p{
+.testo-apprendimento p {
   font-size: 16px;
   color: #808080;
   font-weight: 500;
 }
+.testi-livello p{
+  font-size: 18px;
+  color: #808080;
+  font-weight: 400;
+}
 
 .testi-livello h3{
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: 500;
 }
 .testi-livello a{
-  font-size: 12px;
+  font-size: 14px;
   color: #6390C2;
   font-weight: 500;
 }
@@ -57,7 +63,7 @@ header{
 }
 .livello-lingua{
   width:70%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .bottom-header{
   height:450px;
@@ -211,12 +217,18 @@ header{
 
 /* /struttura testo sezione apprendimento */
 
+/* layout separatore sezioni */
+.separatore{
+  margin: 0 20px;
+  border: 0.5px solid #808080;
+}
+/* /layout separatore sezioni */
+
 /* struttura sezione livello lingua */
 
 .immagine-livello, .testi-livello{
-  width:50%;
+  width:45%;
   height:70vh;
-  border: 1px solid black;
   float: left;
 }
 
@@ -226,7 +238,8 @@ header{
   object-fit: contain;
 }
 .testi-livello{
-  padding: 20px 40px;
+  padding: 50px 40px;
+  margin-left: 10%;
 }
 .testi-livello h3{
   margin-bottom: 10px;
